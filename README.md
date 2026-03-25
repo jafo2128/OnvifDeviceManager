@@ -115,6 +115,10 @@ sudo apt install libpulse-dev
 sudo apt install nasm
 sudo apt install libntlm0-dev
 ```
+** Missing dependancies for Debian / Debian Mint
+sudo apt install libxml2
+sudo apt install libxml2-dev
+
 If your system already has gstreamer pre-installed, I strongly recommend using `--enable-latest` to download the latest gstreamer release supported.   
 Note that autogen will automatically call "./configure".
 ```
